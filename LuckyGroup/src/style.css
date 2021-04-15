@@ -1,0 +1,41 @@
+.navbar {
+  height: 3rem;
+  padding: 0.5rem;
+}
+.companyName {
+  font-size: 24px;
+}
+.mainContent {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 680px;
+}
+.post {
+  display: flex;
+  border: lightgray solid 1px;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.post__img {
+  margin: 1rem;
+  width: 40%;
+  max-width: 300px;
+}
+.post__title {
+  font-size: 16px;
+  margin: 1rem;
+  width: 40%;
+  max-width: 350px;
+}
+@media screen and (max-width: 450px) {
+  .mainContent {
+    width: 90%;
+  }
+  .post__img {
+    width: 100%;
+  }
+  .post__title {
+    width: 100%;
+  }
+}
